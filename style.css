@@ -13,7 +13,7 @@ body {
 .navbar { 
     display: flex; 
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: center;
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -26,7 +26,7 @@ body {
 } 
 
 .logo .logo-heading { 
-    color: #fff; 
+    color: #fff;
 } 
 
 .menu { 
@@ -100,7 +100,7 @@ body {
 
 .about .about-image img { 
     height: 400px; 
-    width: 450px; 
+    width: 400px; 
     padding: 5rem 5rem 5rem 1rem; 
 } 
 
@@ -177,12 +177,13 @@ body {
 
 /* Contact section styles */
 .contact { 
-    padding: 0 5rem; 
+    padding: 0 5rem;
+    text-align: center;
 } 
 
 .contact-content { 
     display: flex; 
-    margin: 3rem 0; 
+    margin: 3rem 0;
     justify-content: space-between; 
 } 
 
@@ -212,24 +213,27 @@ body {
 /* Footer Styles */
 .footer { 
     background-color: #000; 
-    color: #fff; 
+    color: #fff;
+    align-items: center; 
     padding: 2rem; 
 } 
 
-.footer-list-items { 
+.footer-list-items {
+    text-align: center;
     display: flex; 
     align-items: center; 
-    justify-content: center; 
+    justify-content: center;
     height: 50px; 
     width: 50px; 
-    margin: 1rem 1rem 0 1rem; 
-    border-radius: 50%; 
+    border-radius: 50%;
+    padding: 1 1 1 1;
     background-color: #53C8B6; 
 } 
 
 .footer-links { 
     font-size: 24px; 
     color: #fff; 
+    align-items: center;
     text-decoration: none; 
 } 
 
@@ -240,15 +244,14 @@ body {
 } 
 
 .footer-menu { 
-    padding: 0 5rem; 
+    padding: 0 5rem;
 } 
 
 .footer-menu .footer-menu-list { 
-    display: flex; 
-    list-style: none; 
+    display: flex;
+    align-items: left; 
+    list-style: none;
 } 
-
-
 
 
 
