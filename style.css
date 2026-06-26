@@ -17,84 +17,24 @@ body {
     position: fixed; 
     top: 0; 
     width: 100%; 
-    background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C); 
-    background-color: transparent; 
-} 
-
-.logo { 
-    padding: 0 5rem; 
+    background-color: #eb98b5; 
 } 
 
 .logo .logo-heading { 
     color: #fff;
 } 
 
-.menu { 
-    padding: 0 5rem; 
-} 
-
-.hamburger { 
-    display: none; 
-    color: #fff; 
-    font-size: 25px; 
-} 
-
-.cross-icon { 
-    display: none; 
-} 
-
-.menu .menu-list { 
-    display: flex; 
-    list-style: none; 
-} 
-
-.menu-list .menu-list-items { 
-    padding: 0.5rem 1rem; 
-} 
-
-@media screen and (min-width: 856px) and (max-width: 1024px) { 
-    .menu-list .menu-list-items { 
-        padding: 0.5rem 0.3rem; 
-    } 
-} 
-
-/* Main Hero Section Styles */
-.hero { 
-    background-image: url('./Images/heroImg3.avif'); 
-    background-repeat: no-repeat; 
-    background-size: 100% 100%; 
-    width: 100%; 
-    height: 100vh; 
-    display: flex; 
-    align-items: center; 
-    justify-content: start; 
-    margin: 4.8rem 0; 
-} 
-
-.hero .intro { 
-    text-align: center; 
-    margin: 0 5rem; 
-} 
-
-.hero .intro-buttons { 
-    margin: 2rem 0; 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-evenly; 
-} 
-
 /* About section styles */
 .about { 
     display: flex; 
     align-items: center; 
-    background-image: linear-gradient(45deg, #363D73, #2794B3); 
     justify-content: space-between; 
     width: 100%; 
 } 
 
 .about .about-text { 
     width: 450px; 
-    color: #fff; 
+    color: #000; 
     padding: 5rem 1rem 5rem 5rem; 
 } 
 
@@ -106,7 +46,7 @@ body {
 
 /* Portfolio section styles */
 .portfolio { 
-    margin: 4.8rem 0; 
+    margin: 1rem 0; 
     padding: 0 5rem; 
 } 
 
@@ -114,27 +54,6 @@ body {
     padding: 0 !important; 
     background: none !important; 
     border: 2px solid #000; 
-} 
-
-.port-card .image { 
-    width: 100%; 
-} 
-
-.port-card .image img { 
-    height: 200px; 
-    width: 100%; 
-    border-top-right-radius: 20px; 
-    border-top-left-radius: 20px; 
-} 
-
-/* Services section styles */
-.services { 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; 
-    margin: 4.8rem 0; 
-    padding: 0 5rem; 
 } 
 
 .my-row { 
@@ -160,16 +79,6 @@ body {
     padding: 1rem; 
 } 
 
-.icon { 
-    height: 100px; 
-    width: 100px; 
-    border-radius: 50%; 
-    background-color: #363D73; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-} 
-
 .icon svg { 
     font-size: 30px; 
     color: #fff; 
@@ -177,7 +86,7 @@ body {
 
 /* Contact section styles */
 .contact { 
-    padding: 0 5rem;
+    padding: 1rem 5rem;
     text-align: center;
 } 
 
@@ -227,7 +136,7 @@ body {
     width: 50px; 
     border-radius: 50%;
     padding: 1 1 1 1;
-    background-color: #53C8B6; 
+    background-color: #eb98b5; 
 } 
 
 .footer-links { 
@@ -240,7 +149,8 @@ body {
 .social-links { 
     display: flex; 
     align-items: center; 
-    justify-content: center; 
+    justify-content: center;
+    padding-bottom: 1em;
 } 
 
 .footer-menu { 
@@ -261,8 +171,10 @@ body {
     font-size: 1.3rem; 
     font-weight: lighter; 
     margin: 0; 
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
+    padding-top: 1em; 
 } 
+    
 
 .my-heading { 
     font-size: 2.5rem; 
@@ -342,5 +254,5 @@ body {
 } 
 
 .blue-text { 
-    color: #363D73; 
+    color: #000; 
 }
